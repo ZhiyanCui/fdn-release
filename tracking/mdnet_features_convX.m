@@ -1,0 +1,9 @@
+function [ feat ] = mdnet_features_convX(net, img, rois, opts)
+
+res=[];
+
+res = mdnet_simplenn(rois,net, img, [], [], res, ...
+            'disableDropout', true, ...
+            'conserveMemory', opts.conserveMemory, ...
+            'sync', opts.sync) ;
+feat=gather(res(end).x);
