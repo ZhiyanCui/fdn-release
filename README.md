@@ -1,7 +1,7 @@
 ## Fast Dynamic Convolutional Neural Networks for Visual Tracking
 
 ### introduction
-This is the implementation of our paper:*Fast Dynamic Convolutional Neural Networks for Visual Tracking*. The paper can be found here:
+This is the implementation of our paper: **Fast Dynamic Convolutional Neural Networks for Visual Tracking**. The paper can be found here:
 [Fast Dynamic Convolutional Neural Networks for Visual Tracking](https://arxiv.org/pdf/1807.03132.pdf). Our paper is accept by [ACML2018(Asian Conference on Machine Learning)](http://www.acml-conf.org/2018/)
 
 The pipeline is built upon the MDNet tracker for your reference:[http://cvlab.postech.ac.kr/research/mdnet/](http://cvlab.postech.ac.kr/research/mdnet/)
